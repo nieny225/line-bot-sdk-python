@@ -30,8 +30,10 @@ from linebot.models import (
 from linebot.utils import PY3
 
 # get channel_secret and channel_access_token from your environment variable
-channel_secret = os.getenv('LINE_CHANNEL_SECRET', None)
-channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
+channel_secret = '7168653be12fa9df1b93d423c88e2b19'
+# os.getenv('LINE_CHANNEL_SECRET', None)
+channel_access_token = 'J1QIcMwCdyC+b2uhXdnVMf6Cf3FDHognUmr9XiBSrX/GjYWPf45zFexBW6P6eBEU+wQtR+G/DZj+lsT6abfOqgpcRGUCX+vwuxlxWOZOaBTE5JJQmCoKUECrV9Rx0wzyN8qp1aWSD3g6aTO3ckuJ6QdB04t89/1O/w1cDnyilFU='
+# os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
 if channel_secret is None:
     print('Specify LINE_CHANNEL_SECRET as environment variable.')
     sys.exit(1)
